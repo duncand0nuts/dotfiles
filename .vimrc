@@ -1,10 +1,12 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Must Have
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set nocompatible " get out of horrible vi-compatible mode
-background=dark
+syntax enable
+set background=dark
 colorscheme solarized
-syntax on " syntax highlighting on
+let g:solarized_contrast="high"
+let g:solarized_termcolors=256
+let g:solarized_visibility="high"
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General
