@@ -1,9 +1,9 @@
 [user]
-	name = Adam Eivy
-	email = atomantic@gmail.com
+	name = Omar Shibli
+	email = omarshib@gmail.com
 [github]
     # https://github.com/blog/180-local-github-config
-    user = atomantic
+    user = omarshibli
 
     # in a few months, look into the include directive (after bug fixes)
     token = MOVEALONG
@@ -53,6 +53,7 @@
 	#safecrlf = true
 	editor = vim
 	#editor = subl -w
+	ignorecase = false
 
 [alias]
 	# most commonly used
@@ -183,7 +184,7 @@
 
 [branch]
     # Automatically set up pull to be --rebase
-    # autosetuprebase = always
+	autosetuprebase = always
 
 [credential]
     # cache creds (git help credential-cache)
