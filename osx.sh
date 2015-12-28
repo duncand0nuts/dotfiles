@@ -146,6 +146,12 @@ require_brew watch
 # Install wget with IRI support
 require_brew wget --enable-iri
 
+require_brew scala
+require_brew sbt
+
+#Install pip
+require_brew python
+
 # nvm
 require_nvm stable
 
@@ -188,10 +194,19 @@ sudo chown -R $(whoami) /Library/Ruby/Gems/2.0.0
 require_gem git-up
 
 ###############################################################################
+bot "Python Globals..."
+###############################################################################
+
+require_pip aws
+
+###############################################################################
 # Native Apps (via brew cask)                                                 #
 ###############################################################################
 bot "installing GUI tools via homebrew casks..."
 brew tap caskroom/versions > /dev/null 2>&1
+
+#Install java
+require_cask java
 
 # cloud storage
 #require_cask amazon-cloud-drive

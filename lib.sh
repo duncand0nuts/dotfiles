@@ -67,6 +67,16 @@ function require_brew() {
     ok
 }
 
+function require_pip() {
+  running "pip $1"
+  if [[ $(pip list | grep $1 | head -1 | cut -d' ' -f1) != $1 ]];
+      then
+          action "pip install $1"
+          pip install $1
+  fi
+  ok
+}
+
 function require_node(){
     running "node -v"
     node -v
@@ -113,7 +123,6 @@ function sourceNVM(){
     export NVM_DIR=~/.nvm
     source $(brew --prefix nvm)/nvm.sh
 }
-
 
 function require_nvm() {
     mkdir -p ~/.nvm
