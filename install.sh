@@ -5,10 +5,10 @@
 # @author Adam Eivy
 ###########################
 
-DEFAULT_EMAIL="atomantic@gmail.com"
-DEFAULT_GITHUBUSER="atomantic"
-DEFAULT_NAME="Adam Eivy"
-DEFAULT_USERNAME="antic"
+DEFAULT_EMAIL="omarshib@gmail.com"
+DEFAULT_GITHUBUSER="omarshibli"
+DEFAULT_NAME="Omar Shibli"
+DEFAULT_USERNAME="omar"
 
 
 # include my library helpers for colorized echo and require_brew, etc
@@ -67,7 +67,7 @@ if [[ $response =~ ^(no|n|N) ]];then
   fi
 fi
 
-grep 'user = atomantic' .gitconfig
+grep "user = $DEFAULT_GITHUBUSER" .gitconfig
 if [[ $? = 0 ]]; then
     read -r -p "What is your github.com username? [$DEFAULT_GITHUBUSER]" githubuser
 fi
