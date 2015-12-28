@@ -2,11 +2,7 @@
 " Must Have
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible " get out of horrible vi-compatible mode
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
+background=dark
 colorscheme solarized
 syntax on " syntax highlighting on
 
