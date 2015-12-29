@@ -48,14 +48,11 @@ alias mr='mr -j'
 
 #scala
 alias scala='scala -Dscala.color'
-export SCALA_HOME=/usr/local/bin/scala  
+export SCALA_HOME=/usr/local/bin/scala
 export PATH=$PATH:$SCALA_HOME/bin
 
-#spark
+#spark (todo: install spark)
 export PATH=$PATH:/opt/spark/default/bin
-
-#ruby
-eval "$(rbenv init -)"
 
 #java
 export JAVA_HOME=$(/usr/libexec/java_home)
