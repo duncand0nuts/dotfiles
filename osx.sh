@@ -146,6 +146,7 @@ require_brew watch
 # Install wget with IRI support
 require_brew wget --enable-iri
 
+require_brew maven
 require_brew scala
 require_brew sbt
 
