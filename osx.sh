@@ -202,6 +202,7 @@ bot "Python Globals..."
 
 require_pip awscli
 require_pip data-hacks
+require_pip invoke
 
 ###############################################################################
 # Native Apps (via brew cask)                                                 #
