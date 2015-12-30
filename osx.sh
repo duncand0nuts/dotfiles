@@ -96,6 +96,8 @@ require_brew findutils
 #install ringojs
 #install narwhal
 
+require_brew htop
+require_brew iftop
 # Install other useful binaries
 require_brew ack
 # Beanstalk http://kr.github.io/beanstalkd/
