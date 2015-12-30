@@ -82,7 +82,7 @@ bot "installing homebrew command-line tools"
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 require_brew coreutils
 # Install some other useful utilities like `sponge`
-require_brew moreutils
+require_brew parallel
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed
 require_brew findutils
 
