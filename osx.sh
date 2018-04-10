@@ -52,7 +52,7 @@ running "checking brew-cask install"
 output=$(brew tap | grep cask)
 if [[ $? != 0 ]]; then
   action "installing brew-cask"
-  require_brew caskroom/cask/brew-cask
+  brew tap caskroom/cask
 fi
 ok
 
