@@ -267,6 +267,7 @@ require_cask google-chrome
 # vagrant for running dev environments using docker images
 require_cask vagrant # # | grep Caskroom | sed "s/.*'\(.*\)'.*/open \1\/Vagrant.pkg/g" | sh
 require_cask dockertoolbox
+require_cask clipy
 
 
 # bot "Alright, cleaning up homebrew cache..."
