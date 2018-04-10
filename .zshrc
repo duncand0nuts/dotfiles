@@ -57,11 +57,6 @@ export PATH=$PATH:/opt/spark/default/bin
 #java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
-#docker stuff
-export DOCKER_CERT_PATH=/Users/omar/.docker/machine/machines/default
-export DOCKER_TLS_VERIFY=1
-export DOCKER_HOST=tcp://192.168.99.100:2376
-
 
 # Customize to your needs...
 unsetopt correct
